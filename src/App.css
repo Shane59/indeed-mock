@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  max-width: 1120px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -35,4 +36,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  max-width: 200px;
+  text-align: left;
+}
+.nav-wrapper {
+  max-width: 500px;
+}
+.nav-account {
+  max-width: 100px;
+  margin-left: auto;
+}
+.search-jobs-wrapper .search-input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.search-jobs-wrapper input {
+  border: none;
 }
