@@ -1,5 +1,4 @@
 .App {
-  max-width: 1120px;
   margin: 0 auto;
 }
 
@@ -40,20 +39,29 @@
 
 .logo {
   max-width: 200px;
-  text-align: left;
+  text-align: center;
 }
 .nav-wrapper {
   max-width: 500px;
 }
 .nav-account {
-  max-width: 100px;
+  max-width: 130px;
   margin-left: auto;
+}
+.search-jobs-wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
 }
 .search-jobs-wrapper .search-input {
   padding: 10px;
   border: 1px solid black;
-  border-radius: 10px;
 }
 .search-jobs-wrapper input {
   border: none;
+}
+.search-btn {
+  max-width: 100px;
+}
+.divider {
+  border-top: solid 1px lightgray;
 }
